@@ -1,0 +1,56 @@
+Image To ZX Spec is licensed under the GPLv3 but uses open source third party components that are covered by a 
+number of other GPLv3 compatible legal licences and copies of which are included in this distribution.
+
+Due to the nature of Java executable jar packaging and for use in Java webstart to simplify distribution 
+the third party components - pre-compiled classes - have been copied into the single distributed jar file, 
+but the classes are otherwise identical to their respective "binary" .jar file distributions.
+
+The third party licences are as follows:
+
+JFFMPEG 1.1.0 - Required to enhance JMF's video file format support. 
+Note that JFFMPEG's OGG/Vorbis packages are not linked/included (or required) in this code base.
+Licence: LGPL 3 for the pure Java video decoders.
+Licence URL: http://jffmpeg.sourceforge.net/download.html
+Source URL: http://sourceforge.net/projects/jffmpeg/files/jffmpeg/jffmpeg-1.1.0/jffmpeg-1.1.0.jar/download
+
+VLCJ 3.0.0 - Required to support a larger range of video formats (usage optional)
+Licence: GPL 3 
+Licence URL: http://www.capricasoftware.co.uk/projects/vlcj/index.html
+Source URL: http://vlcj.googlecode.com/files/vlcj-2.4.1-dist.tar.gz
+
+JNA 4.0.0 - Required by VLCJ for native encoder/decoder support
+Licence: Apache 2.0
+Licence URL: https://github.com/twall/jna
+Source URL: https://github.com/twall/jna
+
+XStream 1.4.4 - Required to save and load preferences.
+Licence: Modified "3 part" BSD Licence.
+Licence URL: http://xstream.codehaus.org/license.html
+Source URL: https://nexus.codehaus.org/content/repositories/releases/com/thoughtworks/xstream/xstream-distribution/1.4.4/xstream-distribution-1.4.4-src.zip
+
+Sun JMF 2.1.1e (Java API extension) - Required to enable non native cross platform  video decoding. 
+Licence: Oracle Binary Code Licence (i.e. same as Java).
+Licence URL: http://www.oracle.com/technetwork/java/javase/terms/license/index.html
+Binary URL: http://www.oracle.com/technetwork/java/javasebusiness/downloads/java-archive-downloads-java-client-419417.html#7372-jmf-2.1.1e-oth-JPR 
+
+As part of the Java API, JMF should fall under the GPLv3 System Library exception but for avoidance of doubt a 
+Section 7 exception is also granted to Image To ZX Spec to allow this library to be linked under its own licence:
+--
+Copyright (C) 2014 Silent Software (Benjamin Brown)
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General 
+Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) 
+any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
+warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program; if not, see 
+<http://www.gnu.org/licenses>.
+
+Additional permission under GNU GPL version 3 section 7
+
+If you modify this Program, or any covered work, by linking or combining it with Java Media Framework (or a modified 
+version of that library), containing parts covered by the terms of Oracle Binary Code Licence, the licensors of this
+Program grant you additional permission to convey the resulting work. 
+--
